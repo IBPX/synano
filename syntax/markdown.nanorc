@@ -1,0 +1,37 @@
+## synano_markdown
+## Part of the synano project by IBPX
+## https://github.com/IBPX/synano
+## Public Domain under CC0 <http://creativecommons.org/publicdomain/zero/1.0/>
+
+syntax "Markdown" "\.(md|markdown)$"
+
+## Headings
+### '=' or '-' Heading
+color blue,white "^(-+|=+)[ \t]*$"
+### '#' Heading
+color blue,white "^#.*"
+
+## Line Break
+color black,white "  $"
+
+## Text Styles
+### Italic
+color yellow "(_[^(_| |\n)]*_|\*[^(\*| |\n)]*\*)"
+### Bold
+color yellow "(__[^(__| |\n)]*__|\*\*[^(\*\*| |\n)]*\*\*)"
+### Monospace
+color black,white "`[^`]*`"
+### Strikethrough
+color yellow "~~[^~~| |\n)]*~~"
+
+## Code
+color black,white "    (.|\n    )*"
+
+## Link
+color green "\[.*\]\(.*\)"
+
+## List Item
+color magenta "(^\*.*|[0-9]+\..*)"
+
+## Em Dash
+color green "[^-]---[^-]"
