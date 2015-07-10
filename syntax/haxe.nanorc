@@ -3,7 +3,7 @@
 ## https://github.com/IBPX/synano
 ## Public Domain under CC0 <http://creativecommons.org/publicdomain/zero/1.0/>
 
-syntax "Haxe" "\.hx$"
+syntax "haxe" "\.hx$"
 ## Double-quote string
 color yellow start="\"" end="\""
 ## Single-quote string

@@ -8,7 +8,7 @@
 ## https://github.com/IBPX/synano
 ## Public Domain under CC0 <http://creativecommons.org/publicdomain/zero/1.0/>
 
-syntax "Haxe" "\.hx$"
+syntax "haxe" "\.hx$"
 ## Double-quote string
 color yellow start="\"" end="\""
 ## Single-quote string
@@ -46,7 +46,7 @@ color yellow "(\b([0-9]+|0[xX][0-9a-fA-F]+)[Ll]?\b|\b(([0-9]+[Ee][-]?[0-9]+|([0-
 ## https://github.com/IBPX/synano
 ## Public Domain under CC0 <http://creativecommons.org/publicdomain/zero/1.0/>
 
-syntax "JSON" "\.json$"
+syntax "json" "\.json$"
 ## Strings
 color yellow "\"[^\"]*\""
 ## Keys
@@ -63,7 +63,7 @@ color yellow "\b-?([1-9][0-9]*|0)(\.[0-9]+)?([eE][-+]?[0-9]+)?\b"
 ## https://github.com/IBPX/synano
 ## Public Domain under CC0 <http://creativecommons.org/publicdomain/zero/1.0/>
 
-syntax "Markdown" "\.(md|markdown)$"
+syntax "markdown" "\.(md|markdown)$"
 
 ## Headings
 ### '=' or '-' Heading
