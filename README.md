@@ -1,8 +1,10 @@
    synano
 ================================================================================
 
-`synano` is a collection of syntax files for the `nano` text editor. Upstream
-source can be found online at <https://github.com/IBPX/synano>
+synano is a collection of syntax files for the [nano][] text editor. Upstream
+source can be found online at <https://github.com/IBPX/synano>.
+
+[nano]: https://www.nano-editor.org
 
  Syntaxes
 ==========
